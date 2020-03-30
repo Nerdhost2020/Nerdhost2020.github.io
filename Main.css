@@ -1,0 +1,10 @@
+body{
+    background: black;
+    color:aquamarine;
+    text-align: center;
+}
+
+H1::after{
+    content: "!!!!" ;
+    color: green;
+  } 
