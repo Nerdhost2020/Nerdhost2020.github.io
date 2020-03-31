@@ -34,8 +34,7 @@ footer{
   width: 100% !important;
   min-height: 510px!important;
   position: absolute;
-  right: 0px;
-  
+  left: 0px;
 }
 img{
  max-width: 300px !important;
