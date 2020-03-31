@@ -9,3 +9,7 @@ body{
    color: aquamarine;
  				
  				}
+ 				
+blockquote{
+  background: rgba(0,0,0,0.5);
+} 
