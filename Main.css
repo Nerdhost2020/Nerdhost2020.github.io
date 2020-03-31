@@ -94,8 +94,11 @@ blockquote::after{
   line-height: .1em !important;
   margin-left: .25em !important;
   vertical-align: -.4em !important;
+  content: "<span class=`Commentpicture`>";
 } 
-
+.hcb-comment-tb::before{
+  content: "</span>";
+}
 blockquote p {
   display: inline !important;
 }
