@@ -3,10 +3,10 @@ body{
     color:aquamarine;
     text-align: center;
 }
- H1 A{
+H1 A{
  				
- 				font-style: none;
-   color: aquamarine;
+  font-style: none;
+  color: aquamarine;
  				
  				}
  			  	
@@ -37,7 +37,7 @@ img{
 .hcb-comment-tb::before{
    display: block !important;
    white-space: pre !important;
-   content: "\A";
+   content: "";
 } 
 .hcb-comment-tb { 
   font-size: 20px !important;
