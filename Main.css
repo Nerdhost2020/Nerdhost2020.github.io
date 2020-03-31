@@ -41,8 +41,8 @@ body{
   display: block !important;
   position: absolute !important;
   right: 0px !important;
-  top: 50px !important;
-  transform: rotate(90deg) !important;
+  bottom: 0px !important;
+  
 }
 blockquote a{
   font-style: underline!important ;
@@ -52,7 +52,11 @@ blockquote{
   quotes: "“" "”" "‘" "’" !important ;
   text-align: center!important ;
 } 
-blockquote::before{
+blockquote img{
+  display: inline-block !important;
+  text-align: center !important;
+} 
+.author-name::before{
   color: #ccc !important ;
   content: open-quote! important;
   font-size: 4em !important;
