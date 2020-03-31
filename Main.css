@@ -30,7 +30,7 @@ body{
 .hcb-comment-tb::before{
   display: block !important;
   white-space: pre !important;
-  content: "/A" !important;
+  content: "\A" !important;
 }
 .hcb-comment-tb { 
   font-size: 20px !important;
