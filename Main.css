@@ -27,7 +27,7 @@ body{
   
 }
 
-.comment span{ 
+.comment span .hcb-comment-tb { 
   font-size: 25px !important;
   color: grey !important;
   border-top: 4px dotted grey !important;
