@@ -35,8 +35,8 @@ body{
 } 
 
 .comment span{ 
-  font-size: 20px;
-  color: aquamarine !important;
+  font-size: 20px !important;
+  color: grey !important;
   border-top: 4px dotted grey !important;
   border-bottom: 4px dotted grey !important;
   display: inline-block;
