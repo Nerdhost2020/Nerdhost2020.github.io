@@ -34,7 +34,15 @@ body{
   padding-right: 5px!important ;
   padding-top: 5px !important;
   display: inline-block !important;
+  padding-bottom: 5px !important;
   
+}
+.date{
+  display: block !important;
+  position: absolute !important;
+  right: 0px !important;
+  top: 50px !important;
+  transform: rotate(90deg) !important;
 }
 blockquote a{
   font-style: underline!important ;
