@@ -24,10 +24,9 @@ body{
   sans-serif !important;
   font-size: 20px! important;
   color: grey !important;
-  quotes: "\201C""\201D""\2018""\2019"!important;
+  
 }
 .comment::before{
-  content:openquote !important;
   font-size:4em !important;
   line-height:.1em !important;
   margin-right:.25em !important;
@@ -48,8 +47,7 @@ blockquote a{
 
 }
 blockquote{
-  
-quotes:"\201C""\201D""\2018""\2019"!important ;
+  quotes: "“" "”" "‘" "’" !important ;
 } 
 blockquote::before{
   color: #ccc !important ;
@@ -59,6 +57,14 @@ blockquote::before{
   margin-right: .25em !important ;
   vertical-align: -.4em !important ;
 }
+blockquote::after{
+  color: #ccc !important;
+  content: close-quote ! important;
+  font-size: 4em !important;
+  line-height: .1em !important;
+  margin-right: .25em !important;
+  vertical-align: -.4em !important;
+} 
 
 blockquote p {
   display: inline !important;
