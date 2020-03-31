@@ -27,6 +27,11 @@ body{
   width: 100% !important;
   
 }
+.hcb-comment-tb::before{
+   display: block !important;
+   white-space: pre !important;
+   content: " \A " !important;
+}
 .hcb-comment-tb { 
   font-size: 20px !important;
   border-top: 4px dotted grey !important;
