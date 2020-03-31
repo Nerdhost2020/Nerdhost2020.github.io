@@ -33,10 +33,11 @@ footer{
   color: grey !important;
   width: 100% !important;
   min-height: 510px!important;
+  /*
   position: absolute !important;
   bottom: 0px !important;
   left: 50% !important;
-  transform: translate(-50%, -50%) !important;
+  transform: translate(-50%, -50%) !important;*/
 }
 img{
  max-width: 300px !important;
