@@ -89,15 +89,14 @@ blockquote::before{
 }
 blockquote::after{
   color: #ccc !important;
-  content: close-quote ! important;
+  content: close-quote !important;
   font-size: 4em !important;
   line-height: .1em !important;
   margin-left: .25em !important;
   vertical-align: -.4em !important;
-  content: "<span class=`Commentpicture`>";
 } 
 .hcb-comment-tb::before{
-  content: "</span>";
+
 }
 blockquote p {
   display: inline !important;
