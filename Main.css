@@ -52,7 +52,7 @@ blockquote{
   quotes: "“" "”" "‘" "’" !important ;
   text-align: center!important ;
 } 
-blockquote::after{
+blockquote::before{
   color: #ccc !important ;
   content: open-quote! important;
   font-size: 4em !important;
