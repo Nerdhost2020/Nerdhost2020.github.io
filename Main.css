@@ -34,7 +34,7 @@ body{
   padding-right: 5px!important ;
   padding-top: 15px !important;
   display: inline-block !important;
-  padding-bottom: 5px !important;
+  padding-bottom: 15px !important;
   
 }
 .date{
@@ -52,11 +52,12 @@ blockquote{
   quotes: "“" "”" "‘" "’" !important ;
   text-align: center!important ;
 } 
-img{
+.comment img{
   display: inline-block !important;
   text-align: center !important;
+  padding-bottom: 15px !important;
 } 
-.author::after{
+blockquote::after{
   color: #ccc !important ;
   content: open-quote! important;
   font-size: 4em !important;
