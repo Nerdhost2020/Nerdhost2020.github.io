@@ -13,7 +13,10 @@ H1 A{
   color: aquamarine;
  				
  				}
-.fullcomments{
+footer{
+  text-align: center;
+}
+#fullcomments{
   width: 100%;
   text-align: center;
 }			  	
