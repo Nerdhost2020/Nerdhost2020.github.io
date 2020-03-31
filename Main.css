@@ -56,9 +56,9 @@ img{
   border-bottom: 4px dotted grey !important;
   display: block !important;
   padding-right: 5px!important ;
-  padding-top: 15px !important;
+  /*padding-top: 15px !important;*/
   display: inline-block !important;
-  padding-bottom: 15px !important;
+  /*padding-bottom: 15px !important;*/
   position: absolute !important;
   bottom: 0px !important;
   left: 50% !important;
