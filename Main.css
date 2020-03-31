@@ -34,7 +34,8 @@ footer{
   width: 100% !important;
   min-height: 510px!important;
   position: absolute;
-  left: 0px;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
 }
 img{
  max-width: 300px !important;
@@ -104,7 +105,4 @@ blockquote p {
 #HCB_comment_box{
   width: 100% !important;
   text-align: center !important;
-}
-a img {
-  padding: 50px !important;
 }
