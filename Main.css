@@ -30,9 +30,9 @@ body{
   font-size: 20px !important;
   border-top: 4px dotted grey !important;
   border-bottom: 4px dotted grey !important;
-  display: inline-block !important;
+  display: block !important;
   padding-right: 5px!important ;
-  padding-top: 5px !important;
+  padding-top: 15px !important;
   display: inline-block !important;
   padding-bottom: 5px !important;
   
