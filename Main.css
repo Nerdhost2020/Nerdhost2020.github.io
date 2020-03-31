@@ -34,14 +34,31 @@ body{
   vertical-align:-.4em !important;
 } 
 
-.comment span{
+.comment span{ 
+  font-size: 20px;
   color: aquamarine !important;
-  border-top: 4px solid #428bca !important;
-  border-bottom: 4px solid #428bca !important;
+  border-top: 4px dotted grey !important;
+  border-bottom: 4px dotted grey !important;
   display: inline-block;
  
 }
 blockquote a{
   font-style: underline!important ;
 
+}
+blockquote{
+  
+quotes:"\201C""\201D""\2018""\2019"!important ;
+} 
+blockquote:before {
+  color: #ccc !important ;
+  content: open-quote! important;
+  font-size: 4em !important;
+  line-height: .1em !important ;
+  margin-right: .25em !important ;
+  vertical-align: -.4em !important ;
+}
+
+blockquote p {
+  display: inline !important;
 }
