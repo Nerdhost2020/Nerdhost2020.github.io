@@ -52,11 +52,6 @@ blockquote{
   quotes: "“" "”" "‘" "’" !important ;
   text-align: center!important ;
 } 
-.comment img{
-  display: inline-block !important;
-  text-align: center !important;
-  padding-bottom: 15px !important;
-} 
 blockquote::after{
   color: #ccc !important ;
   content: open-quote! important;
