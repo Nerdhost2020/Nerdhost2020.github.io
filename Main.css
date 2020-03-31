@@ -64,3 +64,8 @@ blockquote::after{
 blockquote p {
   display: inline !important;
 }
+.gravatar{
+  position: absolute !important;
+  top: 15px !important;
+  left: 15px !important;
+}
