@@ -10,7 +10,7 @@ body{
  				
  				}
  			  	
-blockquote{
+.comment{
   background: #f9f9f9 !important;
   border-left: 10px solid #ccc!important;
   margin: 1.5em 110px !important;
@@ -28,7 +28,7 @@ blockquote{
   border-top: 4px solid #428bca!important ;
   border-bottom: 4px solid #428bca!important ;
 }
-blockquote::before{
+.comment::before{
   content:openquote !important;
   font-size:4em !important;
   line-height:.1em !important;
@@ -36,8 +36,8 @@ blockquote::before{
   vertical-align:-.4em !important;
 } 
 
-blockquote {
-  display: in line !important;
+.comment span::after{
+  content: "<br>"
 }
 blockquote a{
   font-style: underline!important ;
