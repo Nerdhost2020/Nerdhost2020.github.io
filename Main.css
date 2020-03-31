@@ -52,11 +52,11 @@ blockquote{
   quotes: "“" "”" "‘" "’" !important ;
   text-align: center!important ;
 } 
-blockquote img{
+img{
   display: inline-block !important;
   text-align: center !important;
 } 
-.author-name::before{
+.author::after{
   color: #ccc !important ;
   content: open-quote! important;
   font-size: 4em !important;
