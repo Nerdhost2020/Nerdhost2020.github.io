@@ -17,7 +17,7 @@ footer{
   text-align: center;
 }
 #fullcomments{
-  width: 100%;
+  width: 90%;
   text-align: center;
   position: relative !important;
 }			  	
@@ -104,4 +104,7 @@ blockquote p {
 #HCB_comment_box{
   width: 100% !important;
   text-align: center !important;
+}
+a img {
+  padding: 50px !important;
 }
