@@ -23,20 +23,17 @@ blockquote{
   Helvetica,
   sans-serif !important;
   font-size: 20px! important;
-  color: #428bca !important;
+  color: grey !important;
   quotes: "\201C""\201D""\2018""\2019"!important;
-  border-top: 4px dotted #428bca!important ;
-  border-bottom: 4px dotted #428bca!important ;
+  border-top: 4px solid #428bca!important ;
+  border-bottom: 4px solid #428bca!important ;
 }
 blockquote::before{
-content: "\201C" !important ;
-display: block !important ;
-font-size: 80px !important ;
-left: -230px !important ;
-top: -50px!important ;
-position: relative !important;
-height: 0 !important ;
-  
+  content:openquote !important;
+  font-size:4em !important;
+  line-height:.1em !important;
+  margin-right:.25em !important;
+  vertical-align:-.4em !important;
 } 
 
 blockquote {
