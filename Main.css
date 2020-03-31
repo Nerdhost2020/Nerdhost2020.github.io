@@ -25,13 +25,20 @@ body{
   font-size: 20px! important;
   color: grey !important;
   width: 100% !important;
+  position: relative !important;
   
+}
+img{
+ max-width: 300px !important;
+ max-height: 500px !important;
+ display: inline-block;
+ text-align: center;
 }
 .hcb-comment-tb::before{
    display: block !important;
    white-space: pre !important;
-   content: " \A " !important;
-}
+   content: "\A";
+} 
 .hcb-comment-tb { 
   font-size: 20px !important;
   border-top: 4px dotted grey !important;
