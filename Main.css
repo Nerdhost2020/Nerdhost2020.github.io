@@ -57,7 +57,7 @@ blockquote::after{
   content: close-quote ! important;
   font-size: 4em !important;
   line-height: .1em !important;
-  margin-right: .25em !important;
+  margin-left: .25em !important;
   vertical-align: -.4em !important;
 } 
 
