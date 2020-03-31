@@ -25,8 +25,12 @@ body{
   font-size: 20px! important;
   color: grey !important;
   width: 100% !important;
-  min-height: 600px !important;
   
+}
+.hcb-comment-tb::before{
+  display: block !important;
+  white-space: pre !important;
+  content: "/A" !important;
 }
 .hcb-comment-tb { 
   font-size: 20px !important;
