@@ -98,3 +98,7 @@ blockquote p {
   top: 15px !important;
   left: 15px !important;
 }
+#HCB_comment_box{
+  width: 100% !important;
+  text-align: center !important;
+}
