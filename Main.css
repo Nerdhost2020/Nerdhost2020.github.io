@@ -10,7 +10,7 @@ body{
  				
  				}
  			  	
-.comment{
+blockquote{
   background: #f9f9f9 !important;
   border-left: 10px solid #ccc!important;
   margin: 1.5em 110px !important;
@@ -18,7 +18,7 @@ body{
   quotes: "\201C""\201D""\2018""\2019"!important;
 }
 
-.comment:before {
+blockquote:before {
   color: #ccc !important;
   content: open-quote !important;
   font-size: 4em !important;
@@ -27,6 +27,6 @@ body{
   vertical-align: -0.4em !important;
 }
 
-.comment span{
+blockquote p{
   display: in line !important;
 }
