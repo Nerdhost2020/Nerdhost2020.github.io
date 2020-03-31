@@ -1,2 +1,2 @@
-$("blockquote").append("<span class='imageholder'>");
-$(".hcb-comment-tb").prepend("</span>");
+//$("blockquote").append("<span class='imageholder'>");
+//$(".hcb-comment-tb").prepend("</span>");
