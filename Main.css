@@ -25,6 +25,7 @@ H1 A{
   font-size: 20px! important;
   color: grey !important;
   width: 100% !important;
+  min-height: 510px!important;
   position: relative !important;
   
 }
@@ -48,6 +49,10 @@ img{
   padding-top: 15px !important;
   display: inline-block !important;
   padding-bottom: 15px !important;
+  position: absolute !important;
+  bottom: 0px !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
 }
 .date{
   display: block !important;
