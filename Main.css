@@ -36,10 +36,6 @@ body{
   padding-top: 15px !important;
   display: inline-block !important;
   padding-bottom: 15px !important;
-  position: absolute !important ;
-  bottom: 3px !important ;
-  left: 50% !important ;
-  transform: translate(-50%, -50%) !important ;
 }
 .date{
   display: block !important;
