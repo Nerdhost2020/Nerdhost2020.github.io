@@ -51,7 +51,7 @@ blockquote{
   
 quotes:"\201C""\201D""\2018""\2019"!important ;
 } 
-blockquote::before .comment span::before{
+blockquote::before{
   color: #ccc !important ;
   content: open-quote! important;
   font-size: 4em !important;
