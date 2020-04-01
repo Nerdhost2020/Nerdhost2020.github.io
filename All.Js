@@ -11,7 +11,10 @@ function checkforimage() {
   
 };
 $(document).ready(function() {
-  checkforimage();
-  alert('ready');
-  console.log("ready");
+  //checkforimage();
+ 
+ alert("Hello! I am an alert box!!");
+ 
+ 
+  //console.log("ready");
 });
