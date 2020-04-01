@@ -1,9 +1,11 @@
 //$("blockquote").append("<span class='imageholder'>");
 //$(".hcb-comment-tb").prepend("</span>");
 function checkforimage() {
- $('a[href*="m/storage/"]').each(function() {
+ 
+  
+ $("a[href*='/storage/lg']").each(function() {
    alert("found");
-   $(this).parent().css({"color": "red", "border": "5px solid red"})
+   //$(this).parent().css({"color": "red", "border": "5px solid red"})
  });
   
   
