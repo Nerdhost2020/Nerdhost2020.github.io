@@ -32,7 +32,7 @@ footer{
   font-size: 20px! important;
   color: grey !important;
   width: 100% !important;
-  min-height: 450px !important;
+  min-height: 500px !important;
   /*
   position: absolute !important;
   bottom: 0px !important;
@@ -52,7 +52,7 @@ img{
 } 
 .hcb-comment-tb a {
   text-decoration:none !important;
-  color:black !important;
+  color:grey !important;
   font-weight:bold !important;
 }
 .hcb-comment-tb { 
