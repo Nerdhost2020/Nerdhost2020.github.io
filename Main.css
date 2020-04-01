@@ -32,7 +32,7 @@ footer{
   font-size: 20px! important;
   color: grey !important;
   width: 100% !important;
-  min-height: 300px !important;
+  min-height: 250px !important;
   /*
   position: absolute !important;
   bottom: 0px !important;
@@ -130,5 +130,5 @@ blockquote a:link{
   content: "test js";
 }*/
 .test{
-  min-height: 500px !important;
+  min-height: 510px !important;
 }
