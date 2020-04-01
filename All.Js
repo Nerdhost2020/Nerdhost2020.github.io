@@ -1,14 +1,13 @@
 //$("blockquote").append("<span class='imageholder'>");
 //$(".hcb-comment-tb").prepend("</span>");
-var $Commentbox = $('.comment');
 function checkforimage() {
  $('a[href*="m/storage/"]').each(function() {
-   alert('found');
+   $(this).parent().css({"color": "red", "border": "5px solid red"})
  });
   
   
 }
 $(document).ready(function() {
-  //checkforimage();
+  checkforimage();
   console.log("ready");
 });
