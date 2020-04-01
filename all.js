@@ -13,6 +13,6 @@ function checkforimage() {
 $(document).ready(function() {
   checkforimage();
  
- alert("Hello! I am an alert box!!");
- console.log("ready");
+ //alert("Hello! I am an alert box!!");
+ //console.log("ready");
 });
