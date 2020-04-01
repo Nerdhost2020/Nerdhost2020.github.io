@@ -69,7 +69,7 @@ img{
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
 }
-.hcb-comment-tb::after{
+.comment::after{
   width: 100% !important;
   height: 50px !important;
   display: block !important;
