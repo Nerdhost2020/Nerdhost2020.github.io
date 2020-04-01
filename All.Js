@@ -2,11 +2,9 @@
 //$(".hcb-comment-tb").prepend("</span>");
 var $Commentbox = $('.comment');
 function checkforimage() {
-  if ($Commentbox.child()     ) {
-    
-  } else {
-    
-  }
+ $('a[href*="m/storage/"]').each(function() {
+   alert('found');
+ });
   
   
 }
