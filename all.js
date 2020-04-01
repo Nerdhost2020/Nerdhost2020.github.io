@@ -3,16 +3,15 @@
 function checkforimage() {
  
   
- $("a[href*='/storage/lg']").each(function() {
-   alert("found");
-   //$(this).parent().css({"color": "red", "border": "5px solid red"})
- });
+ 
   
   
 };
 $(document).ready(function() {
-  checkforimage();
+  $("a[href*='/storage/lg']").each(function() {
+    $( this ).parent(".comment").css({"color": "red", "border": "5px solid red"})
+  });
  
- //alert("Hello! I am an alert box!!");
+ alert("Hello! I am an alert box!!");
  //console.log("ready");
 });
