@@ -2,6 +2,7 @@
 //$(".hcb-comment-tb").prepend("</span>");
 function checkforimage() {
  $('a[href*="m/storage/"]').each(function() {
+   alert("found");
    $(this).parent().css({"color": "red", "border": "5px solid red"})
  });
   
