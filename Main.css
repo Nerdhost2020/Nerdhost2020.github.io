@@ -50,6 +50,11 @@ img{
    white-space: pre !important;
    content: "";
 } 
+.hcb-comment-tb a {
+  text-decoration:none !important;
+  color:black !important;
+  font-weight:bold !important;
+}
 .hcb-comment-tb { 
   font-size: 20px !important;
   border-top: 4px dotted grey !important;
