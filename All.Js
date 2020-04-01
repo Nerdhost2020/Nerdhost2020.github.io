@@ -12,5 +12,6 @@ function checkforimage() {
 };
 $(document).ready(function() {
   checkforimage();
+  alert('ready');
   console.log("ready");
 });
