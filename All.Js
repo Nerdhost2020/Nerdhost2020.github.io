@@ -14,7 +14,5 @@ $(document).ready(function() {
   //checkforimage();
  
  alert("Hello! I am an alert box!!");
- 
- 
-  //console.log("ready");
+ console.log("ready");
 });
