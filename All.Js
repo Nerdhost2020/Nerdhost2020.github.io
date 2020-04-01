@@ -6,7 +6,7 @@ function checkforimage() {
  });
   
   
-}
+};
 $(document).ready(function() {
   checkforimage();
   console.log("ready");
